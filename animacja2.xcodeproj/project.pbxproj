@@ -12,6 +12,11 @@
 		421989E31D1CDF6600DEC97A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421989E11D1CDF6600DEC97A /* Main.storyboard */; };
 		421989E51D1CDF6600DEC97A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421989E41D1CDF6600DEC97A /* Assets.xcassets */; };
 		421989E81D1CDF6600DEC97A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421989E61D1CDF6600DEC97A /* LaunchScreen.storyboard */; };
+		421989F01D1CE24000DEC97A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421989EF1D1CE24000DEC97A /* DataService.swift */; };
+		421989F21D1CF4A200DEC97A /* przycisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421989F11D1CF4A200DEC97A /* przycisk.swift */; };
+		421989F41D1D221100DEC97A /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421989F31D1D221100DEC97A /* loginViewController.swift */; };
+		421989F61D1D882F00DEC97A /* poleTekst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421989F51D1D882F00DEC97A /* poleTekst.swift */; };
+		421989F81D1D8AD000DEC97A /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 421989F71D1D8AD000DEC97A /* gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		421989E41D1CDF6600DEC97A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		421989E71D1CDF6600DEC97A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		421989E91D1CDF6600DEC97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421989EF1D1CE24000DEC97A /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		421989F11D1CF4A200DEC97A /* przycisk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = przycisk.swift; sourceTree = "<group>"; };
+		421989F31D1D221100DEC97A /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		421989F51D1D882F00DEC97A /* poleTekst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = poleTekst.swift; sourceTree = "<group>"; };
+		421989F71D1D8AD000DEC97A /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				421989E41D1CDF6600DEC97A /* Assets.xcassets */,
 				421989E61D1CDF6600DEC97A /* LaunchScreen.storyboard */,
 				421989E91D1CDF6600DEC97A /* Info.plist */,
+				421989F71D1D8AD000DEC97A /* gif.gif */,
+				421989EF1D1CE24000DEC97A /* DataService.swift */,
+				421989F11D1CF4A200DEC97A /* przycisk.swift */,
+				421989F31D1D221100DEC97A /* loginViewController.swift */,
+				421989F51D1D882F00DEC97A /* poleTekst.swift */,
 			);
 			path = animacja2;
 			sourceTree = "<group>";
@@ -124,6 +139,7 @@
 			files = (
 				421989E81D1CDF6600DEC97A /* LaunchScreen.storyboard in Resources */,
 				421989E51D1CDF6600DEC97A /* Assets.xcassets in Resources */,
+				421989F81D1D8AD000DEC97A /* gif.gif in Resources */,
 				421989E31D1CDF6600DEC97A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				421989F21D1CF4A200DEC97A /* przycisk.swift in Sources */,
+				421989F01D1CE24000DEC97A /* DataService.swift in Sources */,
 				421989E01D1CDF6600DEC97A /* ViewController.swift in Sources */,
 				421989DE1D1CDF6600DEC97A /* AppDelegate.swift in Sources */,
+				421989F41D1D221100DEC97A /* loginViewController.swift in Sources */,
+				421989F61D1D882F00DEC97A /* poleTekst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
